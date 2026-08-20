@@ -14,6 +14,11 @@ The app checks here for updates by itself.
 
 <!-- CHANGELOG:START -->
 
+## v0.1.1
+
+- Fixed: the update check could never reach GitHub — the app's sandbox was
+  missing the outgoing-network permission, so every connection was silently
+  blocked. Update checks now work.
 ## v0.1.0
 
 First release.
